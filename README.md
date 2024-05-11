@@ -39,9 +39,9 @@ The core objective of this application is to transform the way people access hea
 
 **CHAPTER 2**
 
-Bridging the Gap
+**Bridging the Gap**
 
-Challenges in Healthcare and the Impact of Our App
+**Challenges in Healthcare and the Impact of Our App**
 
 The current healthcare landscape presents numerous challenges for patients seeking timely and convenient care for minor medical issues. This chapter delves into these obstacles and explores how our healthcare assistant app addresses them, creating a positive impact on both patients and the healthcare system.
 
@@ -151,10 +151,15 @@ This personalized health management tool empowers you to monitor and record vari
 **Data Input Fields:**
 
 These fields allow you to enter health data manually. The specific data points may vary depending on the app i.e.,
+
 ●	Weight
+
 ●	Blood Pressure (Systolic and Diastolic)
+
 ●	Blood Sugar
+
 ●	Symptoms (text entry field)
+
 Calendar View: This view allows you to see your tracked health data plotted on a calendar grid. Tapping on a specific date might show you the data points entered for that day.
 
 By allowing you to comprehensively track and analyze your health data, this page empowers you to take a proactive approach to your well-being. You can use the information you gather to monitor progress toward health goals, identify areas for improvement, and share valuable data with healthcare providers during consultations.
