@@ -1,0 +1,100 @@
+.logo {
+    position: absolute;
+            top: 5px;
+            right: 5px;
+            width: 70px; /* Adjust based on your logo size */
+            height: auto; /* Maintain aspect ratio */
+}
+main {
+    margin-left: 250px; /* Adjust main content margin to accommodate the navigation menu */
+    padding: 40px; /* Add padding to prevent content from sticking to the edge of the viewport */
+
+}
+
+body {
+    color: white;
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Fixed background */
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(image.jpg);
+    color: #fff; /* Text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.nav-toggle {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #fff; /* Adjust if needed */
+}
+
+.side-nav {
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px; /* Space for the content */
+    z-index: 1; /* Make sure it's on top */
+}
+
+.side-nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover {
+    color: #f1f1f1;
+    background: #2668ff;
+}
+
+.side-nav button:hover {
+    color: #f1f1f1;
+    background: #2668ff;
+}
+
+.chat-selection button.doctor {
+    background-color: #b2d7ef;
+    margin: 5px;
+    width: calc(50% - 10px);
+}
+
+.messages {
+    height: 300px;
+    overflow-y: auto;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: calc(100% - 110px);
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.button.send {
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color:#2668ff;
+}
+
+.chat-window > button {
+    margin-top: 5px;
+    background-color: #ccc;
+}

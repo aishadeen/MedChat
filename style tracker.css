@@ -1,0 +1,19 @@
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    height: 100px;
+    border: 1px solid #ccc;
+}
+
+.health-input h2,
+.health-report h2 {
+    color: #2668ff;
+}
+
+.health-report p {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}

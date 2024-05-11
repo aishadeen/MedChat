@@ -1,0 +1,101 @@
+button {
+    padding: 15px 30px; /* Larger padding for a bigger button */
+    background-color: #b2d7ef; /* Light blue background */
+    color: white;
+    font-size: 16px; /* Larger font size for better readability */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2668ff; /* Switch to dark blue on hover */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #65a7fc; /* Updated background color */
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    height: 100%;
+    width: 250px;
+    overflow-y: auto;
+}
+
+nav ul li a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white; /* Make text color white for better contrast */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #b2d7ef; /* Lighter blue on hover */
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2668ff;
+    color: #fff;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    order: 2; /* Puts the logo on the right */
+}
+
+.nav-toggle {
+    order: 3; /* Button on the far right */
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #fff; /* Adjust if needed */
+}
+
+h1 {
+    order: 1; /* Title on the left */
+    flex-grow: 1;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2668ff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.intro {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.intro p {
+    margin-bottom: 20px;
+}

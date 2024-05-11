@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #2668ff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav input[type="search"] {
+    padding: 5px;
+    width: 200px;
+}
+
+.scheduler label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.scheduler input[type="date"],
+.scheduler input[type="time"] {
+    padding: 5px;
+    width: 150px;
+}
+
+.button {
+    background-color: #b2d7ef;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.button.confirm {
+    background-color: #2668ff;
+    color: #fff;
+}
+
+.button.cancel {
+    background-color: #ff6347; /* Tomato for a cancel button, you can change it */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}

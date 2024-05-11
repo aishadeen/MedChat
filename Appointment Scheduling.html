@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Scheduling</title>
+    <link rel="stylesheet" href="style appointment.css">
+</head>
+<body>
+    <header>
+        <h1>Appointment Scheduling Page</h1>
+        <nav>
+            <input type="search" placeholder="medical centers near you">
+        </nav>
+    </header>
+    <main>
+        <section class="scheduler">
+            <label for="date">Date:</label>
+            <input type="date" id="date">
+            <label for="time">Time:</label>
+            <input type="time" id="time">
+            <button class="button confirm">Confirm</button>
+            <button class="button cancel">Cancel</button>
+        </section>
+        <section class="appointments">
+            <h2>My Appointments</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Medical Centre</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Status</th>
+                        <th>Edit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hospital1</td>
+                        <td>date</td>
+                        <td>time</td>
+                        <td>done</td>
+                        <td><button>Edit</button></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style home.css">
+    <title>Home Page</title>
+    <style>
+        
+        main {
+            margin-left: 250px; /* Adjust main content margin to accommodate the navigation menu */
+            padding: 20px; /* Add padding to prevent content from sticking to the edge of the viewport */
+        }
+        header {
+            position: relative; /* Make the header a positioned parent */
+            height: 50px; /* Adjust height based on your logo size */
+        }
+        #logo {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            width: 70px; /* Adjust based on your logo size */
+            height: auto; /* Maintain aspect ratio */
+        }
+        body {
+            color: white;
+            background-image: url('image.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Fixed background */
+            background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(image.jpg);
+        }
+        header .h1{
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation menu -->
+    <nav id="main-nav">
+        <ul>
+            <li><a href="#">CHATS</a></li>
+            <li><a href="#">APPOINTMENTS</a></li>
+            <li><a href="#">HEALTH TRACKER</a></li>
+        </ul>
+    </nav>
+    <header>
+        <!-- Add your logo here -->
+        <img id="logo" src="logo.png" alt="MedChat">
+    </header>
+    <main>
+        <header>
+            <h1>Welcome to MedChat!</h1>
+                <p>Welcome to MedChat! where immediate medical assistance meets convenience, <br> connecting you with trusted healthcare professionals right from your fingertips.<br>
+                    Our mission is to bridge the gap between patients and medical professionals, <br> providing convenient and immediate access to expert medical advice and assistance.<br>
+                    Whether you're seeking guidance for minor symptoms, looking for personalized medical support, or want to take control of your health journey, <br> MedChat is here to connect you with qualified doctors, nurses, and pharmacists within your area.
+                    </p>
+
+                    <main>
+                        <header>
+                            <button onclick="window.location.href='Chats.html';">Go to Medical Chats</button> <!-- Update href as needed -->
+                        </header>
+                    </main>
+                    
+            </div>
+    </main>
+</body>
+</html>

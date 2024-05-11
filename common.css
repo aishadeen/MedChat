@@ -1,0 +1,112 @@
+/* General Body and Background Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('image.jpg');
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Navigation Styles */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2668ff;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    height: 100%;
+    width: 250px;
+    overflow-y: auto;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+nav ul li a:hover {
+    background-color: #b2d7ef;
+}
+
+/* Header and Logo Styles */
+header {
+    position: relative;
+    height: 50px;
+}
+.logo {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 70px;
+    height: auto;
+}
+
+/* Main Content Styling */
+main {
+    margin-left: 250px;
+    padding: 40px;
+}
+main h1 {
+    font-size: 50px;
+}
+
+/* Button Styles */
+button, .button {
+    padding: 10px 20px;
+    background-color: #b2d7ef;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover, .button:hover {
+    background-color: #2668ff;
+    color: white;
+}
+
+/* Additional Styles for Interactive Sections */
+.interactive-section-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 20px;
+}
+.interactive-section {
+    flex-basis: 45%;
+    padding: 20px;
+    text-align: center;
+}
+.interactive-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.interactive-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.interactive-section a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.interactive-section a:hover {
+    background-color: #2668ff;
+    color: white;
+}
